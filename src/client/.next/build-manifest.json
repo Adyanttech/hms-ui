@@ -1,39 +1,41 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-42372ed130431b0a.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/--TNjoXPePB9ksBbU2jeF/_buildManifest.js",
+    "static/--TNjoXPePB9ksBbU2jeF/_ssgManifest.js"
   ],
   "rootMainFiles": [],
+  "rootMainFilesTree": {},
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-ad02aaa6588b6bb5.js",
+      "static/chunks/framework-ed818bc5899447e6.js",
+      "static/chunks/main-1b6adda78766f97c.js",
+      "static/chunks/pages/index-1dd60c598e83070d.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-ad02aaa6588b6bb5.js",
+      "static/chunks/framework-ed818bc5899447e6.js",
+      "static/chunks/main-1b6adda78766f97c.js",
+      "static/chunks/pages/_app-99ae374f7e378838.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-ad02aaa6588b6bb5.js",
+      "static/chunks/framework-ed818bc5899447e6.js",
+      "static/chunks/main-1b6adda78766f97c.js",
+      "static/chunks/pages/_error-76c080096345b22e.js"
     ],
     "/dashboard": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dashboard.js"
+      "static/chunks/webpack-ad02aaa6588b6bb5.js",
+      "static/chunks/framework-ed818bc5899447e6.js",
+      "static/chunks/main-1b6adda78766f97c.js",
+      "static/chunks/d9a23341-dea8108cc96dbd6e.js",
+      "static/chunks/439-c2b3c0effc6b8628.js",
+      "static/chunks/pages/dashboard-13133a6da34112f4.js"
     ]
   },
   "ampFirstPages": []

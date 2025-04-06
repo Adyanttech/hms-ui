@@ -1,10 +1,7 @@
+import React from 'react';
 
-import Login from "components/Login";
-
-const Home = () => {
-    return (
-        <Login />
-    );
+const Login = () => {
+  return <div>Login Test</div>;
 };
 
-export default Home;
+export default Login;
