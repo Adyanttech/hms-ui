@@ -1,0 +1,38 @@
+.sideNavContainer {
+  height: calc(100vh - 80px);
+  overflow: auto;
+  margin: 0 -20px;
+  padding: 0 20px;
+
+  .sideBarLeftMain {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin: 0 -20px;
+    padding: 8px 20px 8px 20px;
+    font-weight: bold;
+    font-size: 14px;
+
+    span {
+      text-overflow: ellipsis;
+      margin: 0 -20px;
+      padding: 0 20px;
+    }
+
+    &:first-child {
+      color: #222222;
+      font-weight: bold;
+      font-size: 18px;
+      border-top: 0 solid;
+      margin: 0 -20px;
+      padding: 0 20px;
+      margin-bottom: 10px;
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}
+
+.selectedSideNavOption {
+  background-color: #E0E0E0;
+}
