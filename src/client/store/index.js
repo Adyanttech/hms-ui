@@ -1,6 +1,6 @@
 // import applicationReducer from "./reduxSlices/applicationSlice";
 // import conditionalUsersReducer from "./reduxSlices/conditionalUsersSlice";
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 // import subscriptionReducer from "./reduxSlices/subscriptionSlice";
 // import blogReducer from "./reduxSlices/blogSlice";
 // import overviewReducer from "./reduxSlices/overviewSlice";
@@ -13,22 +13,22 @@ import { configureStore } from "@reduxjs/toolkit";
 // import navigationReducer from "./reduxSlices/navigationSlice"
 
 export const reducer = {
-    // application: applicationReducer,
-    // subscription: subscriptionReducer,
-    // conditionalUsers: conditionalUsersReducer,
-    // blog: blogReducer,
-    // overview: overviewReducer,
-    // dashboardFilters: dashboardFiltersReducer,
-    // manageUsers: manageUsersReducer,
-    // details: detailsReducer,
-    // providers: providersReducer,
-    // product: productReducer,
-    // navigation: navigationReducer,
-    // document: documentReducer
-}
+  // application: applicationReducer,
+  // subscription: subscriptionReducer,
+  // conditionalUsers: conditionalUsersReducer,
+  // blog: blogReducer,
+  // overview: overviewReducer,
+  // dashboardFilters: dashboardFiltersReducer,
+  // manageUsers: manageUsersReducer,
+  // details: detailsReducer,
+  // providers: providersReducer,
+  // product: productReducer,
+  // navigation: navigationReducer,
+  // document: documentReducer
+};
 
 const rootReducer = configureStore({
-    reducer: reducer
+  reducer: reducer,
 });
 
 export default rootReducer;
