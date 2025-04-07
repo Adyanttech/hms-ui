@@ -5,16 +5,16 @@
   "repository": "https://github.com/Adyanttech/hms-ui.git",
   "author": "Vinay Kumar <vinaykumarchakka@gmail.com>",
   "license": "MIT",
- "scripts": {
-    "build": "NEXT_TELEMETRY_DISABLED=1 yarn build:client && yarn build:server",
+  "scripts": {
+    "build": "cross-env NEXT_TELEMETRY_DISABLED=1 yarn build:client && yarn build:server",
     "build:production": "yarn run build && ./bin/prepare_prod",
-    "build:client": "NEXT_TELEMETRY_DISABLED=1 next build ./src/client",
+    "build:client": "cross-env NEXT_TELEMETRY_DISABLED=1 next build ./src/client",
     "build:server": "tsc -p tsconfig.server.json",
-    "dev": "NEXT_TELEMETRY_DISABLED=1 ts-node-dev --ignore-watch ./src/client --transpile-only ./src/main.ts",
+    "dev": "cross-env NEXT_TELEMETRY_DISABLED=1 ts-node-dev --ignore-watch ./src/client --transpile-only ./src/main.ts",
     "eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "fmt": "eslint . --ext .js,.jsx,.ts,.tsx --fix && prettier --write \"**/*.{json,md,yml,ts,tsx,js,jsx}\"",
     "prettier": "prettier -c \"**/*.{md,json,yml,sh}\"",
-    "start": "NEXT_TELEMETRY_DISABLED=1 node ./dist/main.js"
+    "start": "cross-env NEXT_TELEMETRY_DISABLED=1 node ./dist/main.js"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -38,6 +38,7 @@
     "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
