@@ -17,7 +17,13 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".", // Root is src/client/
+    "paths": {
+      "styles/*": ["styles/*"], // Maps styles/ to src/client/styles/
+      "components/*": ["components/*"] // Maps components/ to src/client/components/
+    }
   },
   "include": [
     "next-env.d.ts",

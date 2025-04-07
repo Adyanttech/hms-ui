@@ -26,3 +26,4 @@ pnpm-debug.log*
 
 # Build Files
 .next
+src/client/.next/

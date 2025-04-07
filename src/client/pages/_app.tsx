@@ -29,8 +29,8 @@ import Layout from '../components/Layout/Layout';
 import { Provider } from 'react-redux';
 import store from '../store';
 
-import '../styles/global.css';
-import '../styles/theme.css';
+import 'styles/global.css';
+import 'styles/theme.css';
 // import "react-loading-skeleton/dist/skeleton.css";
 import 'primereact/resources/primereact.min.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
