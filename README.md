@@ -43,24 +43,18 @@ Hospital Management System (HMS) UI is a React.js-based web application designed
 ├── [package.json](http://_vscodecontentref_/0)         # Project metadata and dependencies
 ├── [pnpm-lock.yaml](http://_vscodecontentref_/1)       # Lockfile for dependencies
 ├── [tsconfig.json](http://_vscodecontentref_/2)        # TypeScript configuration
-
 ## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/Adyanttech/hms-ui.git
    cd hms-ui
-
 2. Install dependencies:
     ```bash
     yarn install
-
 3. Start the development server:
     ```bash
     yarn dev
-
 4. Open the app in your browser at http://localhost:3000.
-
 ## Scripts
     ```bash
     yarn dev: Start the development server.
@@ -68,7 +62,6 @@ Hospital Management System (HMS) UI is a React.js-based web application designed
     yarn start: Start the production server.
     yarn eslint: Run ESLint for code linting.
     yarn fmt: Format code using Prettier and ESLint.
-
 ## Dependencies
     ```bash
     React: ^17.0.2
@@ -76,7 +69,6 @@ Hospital Management System (HMS) UI is a React.js-based web application designed
     Redux Toolkit: ^1.9.3
     PrimeReact: ^10.8.2
     Sass: ^1.58.3
-
 ## Development
 This project uses TypeScript for type safety and SCSS modules for styling. The app is structured to follow best practices for scalability and maintainability.
 ````
